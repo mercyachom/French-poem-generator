@@ -6,44 +6,46 @@
     <link rel="stylesheet" href="src/index.css" />
   </head>
   <body>
-    <header>
-      <h1>French Poems Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>French Poems Generator</h1>
+      </header>
 
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter the French word here Abeg!!"
-          autofocus
-          required
-          autocomplete="off"
-        />
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter the French word here Abeg!!"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
 
-        <input type="submit" />
-
-        <div>
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
           La tombe dit à la rose
           <br />
           Des pleurs dont l'aube t'arrose
         </div>
-      </form>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/mercyachom" target="_blank"> Oliver Achom</a>,
-      hosted on
-      <a
-        href="https://github.com/mercyachom/French-poem-generator"
-        target="_blank"
-      >
-        Github</a
-      >
-      and is open sourced on
-      <a href="https://frenchpoemsgenerator.netlify.app/" target="_blank">
-        Netlify</a
-      >
-    </footer>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/mercyachom" target="_blank"> Oliver Achom</a
+        >, hosted on
+        <a
+          href="https://github.com/mercyachom/French-poem-generator"
+          target="_blank"
+        >
+          Github</a
+        >
+        and is open sourced on
+        <a href="https://frenchpoemsgenerator.netlify.app/" target="_blank">
+          Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
